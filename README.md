@@ -3,6 +3,8 @@
 
 CXplorer is an reconnaissance tool written in Go which is capable of scanning directories, sub domains, open ports and sniff network traffic. For scanning it uses inbuilt net library and for network sniffing it uses gopacket. It is meant to find potential vulnerabilities and loopholes to help the user in improving web and network security.
 
+This tool is for project purposes only. I do not own the rights to this tool. Credits goes to the following owners: @tombstoneghost and @s3curityKnights.
+
 ## Installation
 
 	
@@ -71,8 +73,3 @@ Note: If you get any error related to 'Unable to Create Directories', do the sam
 
 ## License
 You can check the License [here](https://github.com/SecurityKnights/CXplorer/blob/main/LICENSE)
-
-## Issues and Bugs
-If you find any bugs or want to add some features to improve the code. Feel free to raise an issue regarding the same.
-
-Happy Hacking :)
