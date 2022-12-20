@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Installing Git
 sudo apt-get install git
 
